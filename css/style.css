@@ -58,12 +58,12 @@ body {
 .container {
   height: auto;
   display: grid;
-  grid-template-columns: 1fr !important;
+  grid-template-columns: 0.5fr;
 }
 
 @media (min-width: 768px) {
   .container {
-    grid-template-columns: 0.5fr 3fr 2fr !important;
+    grid-template-columns: 0.5fr 3fr 2fr;
   }
   .side-bar,
   .main,
@@ -302,11 +302,12 @@ body {
 }
 @media (max-width: 768px) {
   .section {
+    padding: 20px;
     height: auto;
     background: var(--white);
   }
   .container {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 0.5fr;
   }
   .side-bar,
   .main,
